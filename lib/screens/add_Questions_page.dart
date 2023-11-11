@@ -69,7 +69,7 @@ class _AddQuestionPageState extends State<AddQuestionPage> {
           actions: [
             IconButton(
               onPressed: () {
-                print('welcome');
+                
                 Provider.of<Questions>(ctx, listen: false)
                     .addQuestion(_controller.text, courseName);
 
